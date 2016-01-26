@@ -48,9 +48,9 @@
                     scale      : scale,
                     opacity    : op
                 }, {
-                    duration : 300
+                    duration : 300,
                     // delay  : 500,
-                    // easing : [50, 2]
+                    easing   : [50, 5]
                 }).velocity({
                     translateX : 0,
                     translateY : 0,
@@ -59,7 +59,7 @@
                 }, {
                     duration : 300,
                     delay    : delay,
-                    easing   : [50, 5],
+                    // easing   : [50, 5],
                     complete : this.onUnexplode
                 });
         },
@@ -114,7 +114,7 @@
             }, {
                 duration : 300,
                 delay    : delay,
-                easing   : [50, 5]
+                // easing   : [50, 5]
             });
         },
 
